@@ -1,8 +1,62 @@
 <!DOCTYPE html>
-<head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-1.11.3.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>HTML help</title>
-</head>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Favorite Things</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>What are your favorite things?</h1>
+      <p><strong>Instructions: </strong>Enter them here (you can just type over the <em>example text</em>), click the button below, and this page will make a nicely formatted list.</P>
+
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="city">Favorite city</label>
+            <input id="city" class="form-control" type="text" placeholder="Portland, OR">
+          </div>
+          <div class="form-group">
+            <label for="exercise">Favorite form of exercise</label>
+            <input id="exercise" class="form-control" type="text" placeholder="running">
+          </div>
+          <div class="form-group">
+            <label for="weekend">Favorite weekend activity</label>
+            <input id="weekend" class="form-control" type="text" placeholder="tend the garden">
+          </div>
+          <div class="form-group">
+            <label for="book">Favorite book</label>
+            <input id="book" class="form-control" type="text" placeholder="War and Peace">
+          </div>
+          <div class="form-group">
+            <label for="food">Favorite Friday night foood</label>
+            <input id="food" class="form-control" type="text" placeholder="beer and pizza">
+          </div>
+          <div class="form-group">
+            <label for="color">Favorite color</label>
+            <input id="color" class="form-control" type="text" placeholder="blue">
+          </div>
+
+          <button type="submit" class="btn">List my favorite things</button>
+
+        </form>
+      </div>
+
+      <div id="list">
+        <h1>My favorite things:</h1>
+        <ul class="list-group">
+          <li class="list-group-item">Favorite city: <span class="city"></span></li>
+          <li class="list-group-item">Favorite form of exercise: <span class="exercise"></span></li>
+          <li class="list-group-item">Favorite weekend activity: <span class="activity"></span></li>
+          <li class="list-group-item">Favorite book: <span class="book"></span></li>
+          <li class="list-group-item">Favorite Friday night food: <span class="food"></span></li>
+          <li class="list-group-item">Favorite color: <span class="color"></span></li>
+        </ul>
+      </div>
+
+    </div>
+
+  </body>
+</html>
