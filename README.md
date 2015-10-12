@@ -10,7 +10,7 @@ I created this brief website for the third code review of my Intro to Programmin
 
 ## Setup
 
-* Visit [http://maxjmuller.github.io/favorite-things](http://maxjmuller.github.io/favorite-things) to view the page.
+* Visit [http://maxjmuller.github.io/favorite-things](http://maxjmuller.github.io/favorite-things) and follow the instructions on the page.
 
 ## Technologies Used
 
