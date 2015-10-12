@@ -1,6 +1,6 @@
 # _Favorite-Things_
 
-##### _A simple web page that displays a person's favorite things, September, 18 2015_
+##### _A simple web page that displays a person's favorite things, October 11, 2015_
 
 #### By **_Max Muller_**
 
@@ -15,11 +15,10 @@ I created this brief website for the third code review of my Intro to Programmin
 ## Technologies Used
 
 * HTML
-* CSS
-* JavaScript
-* Jquery
-* I used the "input" element's "placeholder" attribute to provide example favorites in the blank form.
-* I used bootstrap's "list-group" class to format the favorites list nicely.
+* CSS & Bootstrap
+* JavaScript & JQuery
+* I used the HTML "input" element's "placeholder" attribute to provide example favorites in the blank form.
+* I used Bootstrap's "list-group" class to format the favorites list nicely.
 
 ### Legal
 
